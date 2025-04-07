@@ -16,5 +16,12 @@ main{
     width: 8%;
     position: absolute;
     top: -10px;
-    left: 180px;
+    left: 165px;
+}
+.card-text{
+    font-family: 'Sometype Mono', monospace;
+}
+.card-title{
+    font-family: 'Edu Tas Beginner', sans-serif;
+    font-size: 20px;
 }

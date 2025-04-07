@@ -9,7 +9,7 @@ const picturesCard =()=>{
      let cards= ''; // creo una stringa vuota in cui concatenerò i nuovi elementi
      details.forEach(item =>{   //itero gli elementi dell'array details
                 const card =   ` <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 pt-3 px-3">
+                            <div class="card mt-5 mb-2 pt-3 px-3">
                                 <img src="${item.url}" class="img-fluid" alt="">
                                 <img src="./img/pin.svg" class="pin-rosso" alt="">
                                 <span class= "card-title py-1 text-center"> ${item.title}</span>

@@ -15,8 +15,8 @@ main{
 .pin-rosso{
     width: 8%;
     position: absolute;
-    top: -10px;
-    left: 165px;
+    top: -1%;
+    left: 48%;
 }
 .card-text{
     font-family: 'Sometype Mono', monospace;

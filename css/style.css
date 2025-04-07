@@ -8,3 +8,13 @@ header{
 main{
     background-image: url("/img/cork.png")
 }
+
+.card{
+    position: relative;
+}
+.pin-rosso{
+    width: 8%;
+    position: absolute;
+    top: -10px;
+    left: 180px;
+}

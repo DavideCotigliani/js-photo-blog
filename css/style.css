@@ -33,6 +33,7 @@ main{
     top: 0;
     left: 0;
     position: fixed;
+    display: none;
 }
 .overlay img{
     width: 30%;

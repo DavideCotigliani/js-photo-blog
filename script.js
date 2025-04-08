@@ -22,7 +22,16 @@ const picturesCard =()=>{
      })
 }
     picturesCard()
-
+    // funzione per attivare overlay
+    function overlayOn (){
+        const activeOverlay =document.querySelector('.overlay')
+        activeOverlay.style.display= "block"
+    }
+    // funzione per disattivare overlay
+    function overlayOff(){
+        const disabledOverlay = document.querySelector('.overlay')
+        disabledOverlay.style.display = "none"
+    }
 
     //con il ciclo for
     // for(let i=0; i<details.length;i ++){

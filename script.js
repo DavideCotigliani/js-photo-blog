@@ -22,6 +22,7 @@ const picturesCard =()=>{
      })
 }
     picturesCard()
+
     // funzione per attivare overlay
     function overlayOn (){
         const activeOverlay =document.querySelector('.overlay')

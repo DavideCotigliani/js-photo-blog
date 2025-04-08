@@ -18,9 +18,24 @@ const picturesCard =()=>{
                                 </div>`;
                 cards = cards + card;  //alla variabile cards concateno quella di card, cards +=card
                 document.getElementById('card-pictures').innerHTML= cards; // recupero l'elemento dal dom e gli aggiungo l'elemento cards
+                    //callback insieme alla funzione di overlayOn
+                const allCards= document.querySelectorAll('.card');
+                allCards.forEach(card =>{
+                    card.addEventListener('click', function(){
+                        overlayOn()
+                    })
+                })
+                // callback insieme alla funzione di overlayOff
+                const closeButton = document.getElementById('close');
+                closeButton.addEventListener('click', function(){
+                    overlayOff()
+                })
+
                 })
      })
+     
 }
+    
     picturesCard()
 
     // funzione per attivare overlay

@@ -8,7 +8,14 @@ header{
 main{
     background-image: url("/img/cork.png")
 }
-
+.container img{
+    transition: 0.2 ease, box-shadow 0.2 ease;
+    cursor: pointer;
+}
+.container img:hover{
+transform: scale(1.1) rotate(10deg);
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
 .card{
     position: relative;
 }
@@ -41,6 +48,7 @@ main{
     top: 25%;
     left: 35%;
 }
+
 #close{
     position: absolute;
     left: 48%;
